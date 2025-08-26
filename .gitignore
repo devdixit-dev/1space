@@ -1,2 +1,4 @@
 prompt.txt
 info.txt
+.env
+node_modules
