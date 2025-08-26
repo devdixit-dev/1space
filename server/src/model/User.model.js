@@ -25,6 +25,10 @@ const UserSchema = new mongoose.Schema({
     type: String,
     maxLength: [100, 'Your additional details has maximum limit of 100 words']
   },
+  companyName: {
+    type: String,
+    required: true
+  },
   bookedProperty: [{
     type: mongoose.Schema.Types.ObjectId,
     ref: 'Property'
