@@ -19,7 +19,7 @@ const AdminLogin = () => {
 
   // Dummy admin credentials
   const ADMIN_CREDENTIALS = {
-    username: "admin@SpaceOnClick.com",
+    username: "admin@spaceonclick.com",
     password: "admin123"
   };
 
